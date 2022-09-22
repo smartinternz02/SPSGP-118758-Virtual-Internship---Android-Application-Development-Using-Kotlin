@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(),GroceryRVAdapter.GroceryItemClickInterf
         val addbtn = dialog.findViewById<AppCompatButton>(R.id.idbtnadd)
         val itemEdt = dialog.findViewById<EditText>(R.id.idEdtitemname)
         val itemPriceEdt = dialog.findViewById<EditText>(R.id.idEdtitemprice)
-        val itemQuantityEdt = dialog.findViewById<EditText>(R.id.idEdtitemquantity)
+        val itemQuantityEdt = dialog.findViewById<EditText>(R.id.idEdtitemquantity)ā
         cancelbtn.setOnClickListener {
             dialog.dismiss()
         }
